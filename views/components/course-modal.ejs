@@ -1,0 +1,29 @@
+<!-- Course Details Modal -->
+<div class="modal fade" id="courseModal" tabindex="-1" aria-labelledby="courseModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="courseModalLabel">Course Details</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <span class="badge bg-secondary" id="modalCategory"></span>
+                </div>
+                <h4 id="modalTitle" class="fw-bold mb-3"></h4>
+                <div class="mb-4">
+                    <h6 class="fw-semibold">Description:</h6>
+                    <p id="modalDescription" class="text-muted"></p>
+                </div>
+                <div id="modalModulesSection" class="mb-4">
+                    <h6 class="fw-semibold">Course Modules:</h6>
+                    <p id="modalModules" class="text-secondary"></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Enroll Now</button>
+            </div>
+        </div>
+    </div>
+</div>
